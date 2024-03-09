@@ -1,3 +1,5 @@
+package easy;
+
 import easy.Exercicio06_easy;
 import org.junit.Assert;
 import org.junit.Test;

@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class Exercicio10_1_easy_comWhile {// incio classe
 
-    public double calcularInvestimentoJurosSimples(double valorInvestimento) {// inico main
+    public Double calcularInvestimentoJurosSimples(double valorInvestimento) {// inico main
 
         double taxaJuros = 0.12;
         int tempoInvestido = 10;
@@ -18,7 +18,7 @@ public class Exercicio10_1_easy_comWhile {// incio classe
         return valorTotal;
     }// fim
 
-    public double calcularValorDeJuros(double valorTotal, double valorInvestimento){
+    public Double calcularValorDeJuros(double valorTotal, double valorInvestimento){
         return (valorTotal - valorInvestimento);
     }
 
